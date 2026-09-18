@@ -5,113 +5,115 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="icon" href="data:image/png;base64,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">
 <meta name="theme-color" content="#0c1729">
-<title>Snapfolio — Rationalisation de portefeuille</title>
+<title>Snapfolio — Analyse de portefeuille boursier</title>
 <style>
   :root{
-    --bg:#0c1729;
-    --surface:#121f36;
-    --surface-2:#18273f;
-    --line:#243650;
-    --txt:#e9eef5;
-    --txt-dim:#8d9cb3;
-    --accent:#18d7b5;
-    --accent-2:#3eef96;
-    --buy:#3eef96;
-    --sell:#ff6b6b;
-    --hold:#f0b429;
+    --bg:#0c1729; --surface:#121f36; --surface-2:#18273f; --line:#243650;
+    --txt:#e9eef5; --txt-dim:#8d9cb3;
+    --accent:#18d7b5; --accent-2:#3eef96;
+    --buy:#3eef96; --sell:#ff6b6b; --hold:#f0b429;
     --radius:14px;
   }
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-  body{
-    margin:0;background:var(--bg);color:var(--txt);
-    font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-    padding:0 16px 64px;
-  }
+  body{margin:0;background:var(--bg);color:var(--txt);
+    font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:0 16px 56px}
+
   header{padding:20px 0 14px;display:flex;align-items:center;gap:11px}
   header img{width:38px;height:38px;border-radius:10px;flex:0 0 auto}
   .brand{flex:1;min-width:0}
   h1{font-size:21px;margin:0;letter-spacing:-.6px;font-weight:700;line-height:1.1}
-  h1 b{color:var(--accent-2);font-weight:700}
+  h1 b{color:var(--accent-2)}
   .tagline{font-size:11.5px;color:var(--txt-dim);letter-spacing:.3px;margin-top:1px}
-  .tag{font-size:10px;color:var(--txt-dim);border:1px solid var(--line);
-       padding:2px 7px;border-radius:99px;flex:0 0 auto;align-self:flex-start;margin-top:3px}
-  h2{font-size:13px;text-transform:uppercase;letter-spacing:.7px;color:var(--txt-dim);margin:26px 0 10px;font-weight:600}
+
+  h2{font-size:12.5px;text-transform:uppercase;letter-spacing:.7px;color:var(--txt-dim);
+     margin:24px 0 9px;font-weight:600}
   .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
   .card + .card{margin-top:10px}
 
   label{display:block;font-size:13px;color:var(--txt-dim);margin:0 0 6px}
-  input,select,textarea{
-    width:100%;background:var(--surface-2);border:1px solid var(--line);color:var(--txt);
-    border-radius:10px;padding:11px 12px;font:inherit;font-size:15px;
-  }
-  input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
-  textarea{resize:vertical;min-height:64px}
-  .field + .field{margin-top:14px}
-  .row{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}
-  .row .field + .field{margin-top:0}
+  input,select{width:100%;background:var(--surface-2);border:1px solid var(--line);color:var(--txt);
+    border-radius:10px;padding:11px 12px;font:inherit;font-size:15px}
+  input:focus,select:focus{outline:none;border-color:var(--accent)}
+  .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
 
-  button{
-    width:100%;border:0;border-radius:10px;
-    background:linear-gradient(100deg,var(--accent),var(--accent-2));
-    color:#06131f;
-    padding:15px;font:inherit;font-weight:700;font-size:16px;margin-top:18px;
-  }
+  button{width:100%;border:0;border-radius:10px;
+    background:linear-gradient(100deg,var(--accent),var(--accent-2));color:#06131f;
+    padding:15px;font:inherit;font-weight:700;font-size:16px;margin-top:16px}
   button:disabled{opacity:.45}
-  button.ghost{background:transparent;border:1px solid var(--line);color:var(--txt-dim);font-size:14px;padding:11px;margin-top:10px}
+  button.ghost{background:transparent;border:1px solid var(--line);color:var(--txt-dim);
+    font-size:14px;font-weight:600;padding:11px;margin-top:10px}
 
-  .drop{
-    border:1.5px dashed var(--line);border-radius:var(--radius);padding:30px 16px;text-align:center;
-    color:var(--txt-dim);font-size:14px;
-  }
-  .drop strong{display:block;color:var(--txt);font-size:15px;margin-bottom:4px;font-weight:600}
+  .drop{border:1.5px dashed var(--line);border-radius:var(--radius);padding:34px 16px;
+    text-align:center;color:var(--txt-dim);font-size:13.5px;display:block}
+  .drop strong{display:block;color:var(--txt);font-size:15.5px;margin-bottom:4px;font-weight:600}
   .thumbs{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
-  .thumb{position:relative;width:72px;height:72px;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
+  .thumb{position:relative;width:70px;height:70px;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
   .thumb img{width:100%;height:100%;object-fit:cover}
-  .thumb span{
-    position:absolute;top:2px;right:2px;background:rgba(0,0,0,.72);color:#fff;
-    width:20px;height:20px;border-radius:50%;font-size:13px;line-height:20px;text-align:center
-  }
+  .thumb span{position:absolute;top:2px;right:2px;background:rgba(0,0,0,.72);color:#fff;
+    width:20px;height:20px;border-radius:50%;font-size:13px;line-height:20px;text-align:center}
+
+  .stats{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);
+         border-radius:11px;overflow:hidden}
+  .stat{background:var(--surface);padding:13px 14px}
+  .stat u{display:block;font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;
+          color:var(--txt-dim);text-decoration:none;font-weight:600}
+  .stat b{display:block;font-size:19px;font-weight:700;margin-top:3px;font-variant-numeric:tabular-nums;
+          letter-spacing:-.4px}
+  .stat i{font-style:normal;font-size:11.5px;color:var(--txt-dim)}
 
   table{width:100%;border-collapse:collapse;font-size:14px}
-  th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--txt-dim);font-weight:600;padding:0 0 8px}
-  td{padding:9px 0;border-top:1px solid var(--line);vertical-align:top}
+  th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;
+     color:var(--txt-dim);font-weight:600;padding:0 0 8px}
+  td{padding:8px 0;border-top:1px solid var(--line);vertical-align:middle}
   td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  .ln-name{font-size:14px;padding:6px 8px;background:transparent;border-color:transparent}
+  .ln-sub{color:var(--txt-dim);font-size:11.5px;padding-left:8px}
+  .ln-val{width:100px;padding:7px 9px;font-size:14px;text-align:right;font-variant-numeric:tabular-nums}
+  .del{color:var(--txt-dim);font-size:17px;padding-left:8px;cursor:pointer}
+  .wbar{height:3px;border-radius:2px;background:var(--accent);margin:4px 0 0 8px}
 
-  .bar{display:flex;height:8px;border-radius:99px;overflow:hidden;margin:10px 0 12px;background:var(--surface-2)}
+  .bar{display:flex;height:9px;border-radius:99px;overflow:hidden;margin:8px 0 10px;background:var(--surface-2)}
   .bar i{display:block}
-  .legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12.5px;color:var(--txt-dim)}
+  .legend{display:flex;flex-wrap:wrap;gap:10px;font-size:12.5px;color:var(--txt-dim)}
   .legend span{display:flex;align-items:center;gap:5px}
   .dot{width:8px;height:8px;border-radius:2px;display:inline-block}
 
-  .act{border-top:1px solid var(--line);padding:13px 0;display:flex;gap:11px;align-items:flex-start}
+  .act{border-top:1px solid var(--line);padding:12px 0;display:flex;gap:11px;align-items:flex-start}
   .act:first-child{border-top:0;padding-top:2px}
-  .pill{
-    flex:0 0 auto;font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;
-    padding:3px 8px;border-radius:5px;margin-top:2px
-  }
+  .pill{flex:0 0 auto;font-size:10px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;
+    padding:3px 8px;border-radius:5px;margin-top:2px}
   .pill.BUY{background:rgba(62,239,150,.14);color:var(--buy)}
-  .pill.SELL{background:rgba(255,107,107,.15);color:var(--sell)}
-  .pill.HOLD{background:rgba(240,180,41,.15);color:var(--hold)}
+  .pill.SELL{background:rgba(255,107,107,.14);color:var(--sell)}
   .act-body{flex:1;min-width:0}
-  .act-head{display:flex;justify-content:space-between;gap:10px;font-weight:600;font-size:15px}
+  .act-head{display:flex;justify-content:space-between;gap:10px;font-weight:600;font-size:14.5px}
   .act-amt{font-variant-numeric:tabular-nums;white-space:nowrap}
-  .act-why{font-size:13.5px;color:var(--txt-dim);margin-top:3px}
+  .act-why{font-size:13px;color:var(--txt-dim);margin-top:2px}
 
+  .kv{display:flex;justify-content:space-between;gap:10px;padding:8px 0;
+      border-top:1px solid var(--line);font-size:14px}
+  .kv b{font-variant-numeric:tabular-nums;font-weight:600}
+  .flag{font-size:13px;color:var(--hold);border-left:2px solid var(--hold);padding-left:11px;margin-top:9px}
+  .flag.info{color:var(--txt-dim);border-color:var(--line)}
+  .ok{font-size:13.5px;color:var(--txt-dim)}
   .prose{font-size:14.5px;line-height:1.65;white-space:pre-wrap}
-  .flag{font-size:13.5px;color:var(--hold);border-left:2px solid var(--hold);padding-left:11px;margin-top:10px}
 
-  .status{text-align:center;color:var(--txt-dim);font-size:14px;padding:22px 0}
-  .spinner{
-    width:20px;height:20px;border:2px solid var(--line);border-top-color:var(--accent);
-    border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 10px
-  }
+  .status{text-align:center;color:var(--txt-dim);font-size:14px;padding:26px 0}
+  .spinner{width:20px;height:20px;border:2px solid var(--line);border-top-color:var(--accent);
+    border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 10px}
   @keyframes spin{to{transform:rotate(360deg)}}
   .err{background:rgba(255,107,107,.1);border:1px solid rgba(255,107,107,.3);color:#ffb3b3;
        border-radius:10px;padding:13px;font-size:14px}
   .hint{font-size:12.5px;color:var(--txt-dim);margin-top:7px}
-  .disclaimer{font-size:11.5px;color:var(--txt-dim);line-height:1.5;margin-top:26px;
-              border-top:1px solid var(--line);padding-top:14px}
+  .disclaimer{font-size:11.5px;color:var(--txt-dim);line-height:1.5;margin-top:24px;
+    border-top:1px solid var(--line);padding-top:13px}
   .hidden{display:none}
+  details summary{font-size:12.5px;text-transform:uppercase;letter-spacing:.7px;color:var(--txt-dim);
+    font-weight:600;cursor:pointer;padding:6px 0;list-style:none}
+  details summary::-webkit-details-marker{display:none}
+  details summary::before{content:'▸ ';font-size:11px}
+  details[open] summary::before{content:'▾ '}
+  .badge{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.4px;padding:2px 6px;
+    border-radius:4px;background:var(--surface-2);color:var(--txt-dim);margin-left:6px;vertical-align:2px}
 </style>
 </head>
 <body>
@@ -122,435 +124,403 @@
     <h1>snap<b>folio</b></h1>
     <div class="tagline">Votre portefeuille, optimisé</div>
   </div>
-  <span class="tag">V0</span>
 </header>
 
-<!-- ÉTAPE 0 : clé API -->
 <section id="setup" class="hidden">
-  <h2>Configuration</h2>
   <div class="card">
     <div class="field">
       <label for="apiKey">Clé API Anthropic</label>
       <input id="apiKey" type="password" placeholder="sk-ant-..." autocomplete="off">
-      <p class="hint">Stockée uniquement dans ce navigateur. Pour la version commerciale, elle passera par ton backend.</p>
+      <p class="hint">Stockée dans ce navigateur uniquement.</p>
     </div>
     <button id="saveKey">Enregistrer</button>
   </div>
 </section>
 
-<!-- ÉTAPE 1 : capture -->
 <section id="capture">
-  <h2>1 · Portefeuille</h2>
   <div class="card">
     <label class="drop" for="file">
-      <strong>Ajouter des captures d'écran</strong>
-      Relevé de positions, appli courtier, PDF exporté en image
+      <strong>Photographiez votre portefeuille</strong>
+      Compte-titres ou PEA — capture d'écran de vos positions
     </label>
     <input id="file" type="file" accept="image/*" multiple capture="environment" class="hidden">
     <div id="thumbs" class="thumbs"></div>
-  </div>
-
-  <h2>2 · Paramètres client</h2>
-  <div class="card">
-    <div class="row">
-      <div class="field">
-        <label for="risk">Profil de risque</label>
-        <select id="risk">
-          <option value="conservateur">Conservateur</option>
-          <option value="modéré" selected>Modéré</option>
-          <option value="équilibré">Équilibré</option>
-          <option value="dynamique">Dynamique</option>
-          <option value="agressif">Agressif</option>
-        </select>
-      </div>
-      <div class="field">
-        <label for="horizon">Horizon</label>
-        <select id="horizon">
-          <option value="< 3 ans">&lt; 3 ans</option>
-          <option value="3-8 ans" selected>3 – 8 ans</option>
-          <option value="8-15 ans">8 – 15 ans</option>
-          <option value="> 15 ans">&gt; 15 ans</option>
-        </select>
-      </div>
-    </div>
-    <div class="row" style="margin-top:14px">
-      <div class="field">
-        <label for="envelope">Enveloppe</label>
-        <select id="envelope">
-          <option>PEA</option>
-          <option>PEA-PME</option>
-          <option selected>Compte-titres</option>
-          <option>Assurance-vie</option>
-          <option>PER</option>
-          <option>Mixte</option>
-        </select>
-      </div>
-      <div class="field">
-        <label for="target">Allocation cible actions %</label>
-        <input id="target" type="number" min="0" max="100" step="5" value="60" inputmode="numeric">
-      </div>
-    </div>
-    <div class="field" style="margin-top:14px">
-      <label for="constraints">Contraintes & objectifs</label>
-      <textarea id="constraints" placeholder="Ex : plafonner les frais à 0,4 %, sortir des fonds maison, purger les moins-values avant décembre, exclure l'armement…"></textarea>
-    </div>
-
-    <h2 style="margin-top:20px">3 · Investissement futur (optionnel)</h2>
-    <div class="row">
-      <div class="field">
-        <label for="nextInvest">Apport ponctuel</label>
-        <input id="nextInvest" type="number" min="0" step="500" placeholder="Ex : 5000" inputmode="numeric">
-      </div>
-      <div class="field">
-        <label for="monthly">Versement mensuel</label>
-        <input id="monthly" type="number" min="0" step="50" placeholder="Ex : 300" inputmode="numeric">
-      </div>
-    </div>
-
-    <h2 style="margin-top:20px">4 · Objectif client (optionnel)</h2>
-    <div class="field">
-      <label for="goalType">Nature de l'objectif</label>
-      <select id="goalType">
-        <option value="">— non précisé —</option>
-        <option>Constitution de capital</option>
-        <option>Complément de revenu à la retraite</option>
-        <option>Acquisition immobilière</option>
-        <option>Études des enfants</option>
-        <option>Transmission</option>
-        <option>Préservation du capital</option>
-      </select>
-    </div>
-    <div class="row" style="margin-top:14px">
-      <div class="field">
-        <label for="goalAmount">Capital visé</label>
-        <input id="goalAmount" type="number" min="0" step="10000" placeholder="Ex : 300000" inputmode="numeric">
-      </div>
-      <div class="field">
-        <label for="goalYears">Échéance (années)</label>
-        <input id="goalYears" type="number" min="1" max="50" step="1" placeholder="Ex : 12" inputmode="numeric">
-      </div>
-    </div>
-    <div class="field" style="margin-top:14px">
-      <label for="goalNotes">Précisions sur l'objectif</label>
-      <textarea id="goalNotes" placeholder="Ex : besoin de 1 200 €/mois de rente à 62 ans, apport de 80 000 € disponible dans 4 ans, capital non entamé avant 2035…"></textarea>
-    </div>
-
-    <button id="run">Analyser le portefeuille</button>
-    <button id="reset" class="ghost">Réinitialiser</button>
+    <button id="go">Analyser</button>
   </div>
 </section>
 
-<!-- ÉTAPE 2 : résultats -->
 <section id="out"></section>
 
 <p class="disclaimer">
-  Outil d'aide à la décision destiné à un professionnel. Les propositions sont des hypothèses de travail
-  produites par un modèle de langage : les lignes extraites, les montants et les points fiscaux doivent être
-  vérifiés avant toute formalisation. Ne constitue ni une recommandation personnalisée, ni un rapport
-  d'adéquation au sens réglementaire.
+  Outil d'aide à la décision destiné à un professionnel. Les lignes sont lues par un modèle de vision et
+  doivent être vérifiées. Poids, concentration et arbitrages sont calculés localement à partir des valeurs
+  affichées. Ne constitue ni une recommandation personnalisée, ni un rapport d'adéquation au sens réglementaire.
 </p>
 
 <script>
 const $ = id => document.getElementById(id);
 const MODEL = 'claude-sonnet-5';
-let images = [];
+const ZONES = ['Amérique du Nord','Europe','Asie-Pacifique','Émergents','Monde','Non déterminé'];
+const ZC = {'Amérique du Nord':'#3eef96','Europe':'#18d7b5','Asie-Pacifique':'#7a8cff',
+            'Émergents':'#f0b429','Monde':'#57c7ff','Non déterminé':'#5d6b82'};
+const SC = ['#3eef96','#18d7b5','#7a8cff','#f0b429','#57c7ff','#ff8fa3','#b58cff','#5d6b82'];
 
-/* ---------- clé API ---------- */
-function getKey(){ try { return localStorage.getItem('snapfolio_key') || ''; } catch(e){ return ''; } }
+let images = [], lignes = [];
+const P = { plafond:15, cash:5, mini:300 };   // réglages par défaut
+
+/* ═══════ clé ═══════ */
+const getKey = () => { try { return localStorage.getItem('snapfolio_key')||''; } catch(e){ return ''; } };
 if (!getKey()) $('setup').classList.remove('hidden');
 $('saveKey').onclick = () => {
-  const k = $('apiKey').value.trim();
-  if (!k) return;
+  const k = $('apiKey').value.trim(); if(!k) return;
   try { localStorage.setItem('snapfolio_key', k); } catch(e){}
   $('setup').classList.add('hidden');
 };
 
-/* ---------- capture ---------- */
+/* ═══════ captures ═══════ */
 $('file').onchange = e => {
   [...e.target.files].forEach(f => {
     const r = new FileReader();
-    r.onload = () => {
-      images.push({ media_type: f.type, data: r.result.split(',')[1], url: r.result });
-      renderThumbs();
-    };
+    r.onload = () => { images.push({media_type:f.type, data:r.result.split(',')[1], url:r.result}); thumbs(); };
     r.readAsDataURL(f);
   });
   e.target.value = '';
 };
-
-function renderThumbs(){
-  $('thumbs').innerHTML = images.map((im,i) =>
-    `<div class="thumb"><img src="${im.url}" alt=""><span data-i="${i}">×</span></div>`
-  ).join('');
-  $('thumbs').querySelectorAll('span').forEach(s => {
-    s.onclick = () => { images.splice(+s.dataset.i, 1); renderThumbs(); };
-  });
+function thumbs(){
+  $('thumbs').innerHTML = images.map((im,i)=>
+    `<div class="thumb"><img src="${im.url}" alt=""><span data-i="${i}">×</span></div>`).join('');
+  $('thumbs').querySelectorAll('span').forEach(s =>
+    s.onclick = () => { images.splice(+s.dataset.i,1); thumbs(); });
 }
 
-$('reset').onclick = () => { images = []; renderThumbs(); $('out').innerHTML = ''; };
+/* ═══════ extraction — unique appel IA ═══════ */
+const PROMPT = `Ces images sont des captures d'écran d'un compte-titres ou d'un PEA.
 
-/* ---------- prompt ---------- */
-function goalInput(){
-  return {
-    type: $('goalType').value,
-    amount: parseFloat($('goalAmount').value) || 0,
-    years: parseFloat($('goalYears').value) || 0,
-    notes: $('goalNotes').value.trim()
-  };
-}
+Extrais chaque position. Règles strictes :
+- N'invente aucun montant. Si une valeur est illisible ou masquée, mets valeur_eur à null et confiance "basse".
+- valeur_eur = valorisation actuelle de la ligne en euros (pas le prix unitaire, pas la performance, pas le PRU).
+- Ne calcule rien, ne recommande rien, ne commente pas. Extraction seule.
+- type : "action" (titre vif), "etf" (ETF ou tracker), "fonds" (OPCVM, SICAV), "cash" (liquidités, espèces).
+- zone : zone géographique dominante de l'exposition, parmi exactement — Amérique du Nord, Europe,
+  Asie-Pacifique, Émergents, Monde, Non déterminé. Un ETF "World"/"ACWI" = Monde. Un S&P 500 ou Nasdaq =
+  Amérique du Nord. Un CAC 40 ou Stoxx = Europe. Si tu n'es pas sûr, mets "Non déterminé", n'extrapole pas.
+- secteur : pour un titre vif uniquement, le secteur (Technologie, Santé, Finance, Énergie, Industrie,
+  Consommation, Immobilier, Services, Matériaux, Télécoms). Pour un ETF, un fonds ou du cash, mets null.
 
-function buildPrompt(){
-  const nextInvest = parseFloat($('nextInvest').value) || 0;
-  const monthly = parseFloat($('monthly').value) || 0;
-  const g = goalInput();
-  const hasGoal = g.type || g.amount > 0 || g.years > 0 || g.notes;
+Réponds UNIQUEMENT par un JSON valide, sans texte ni balise autour :
+{"lignes":[{"nom":"","ticker":null,"valeur_eur":null,"type":"action","zone":"Monde","secteur":null,"confiance":"haute"}]}`;
 
-  let tasks = '';
-  if (nextInvest > 0 || monthly > 0){
-    tasks += `
-5. Répartir les versements à venir (${nextInvest > 0 ? `apport ponctuel de ${nextInvest} €` : ''}${nextInvest > 0 && monthly > 0 ? ', ' : ''}${monthly > 0 ? `${monthly} €/mois` : ''}) par classe d'actifs, en privilégiant les classes sous-pondérées pour converger vers la cible sans vendre. Renseigne "repartition_investissement_futur" en euros sur l'apport ponctuel.`;
-  }
-  if (hasGoal){
-    tasks += `
-6. Confronter l'objectif du client au portefeuille et aux versements prévus :
-   - Estime le capital projeté à l'échéance sous plusieurs hypothèses de rendement annuel net (prudente, centrale, favorable) que TU choisis et que tu ÉNONCES explicitement. Ce sont des hypothèses de travail, pas des prévisions : ne présente jamais un chiffre comme acquis.
-   - Indique l'écart avec le capital visé, et ce qu'il faudrait ajuster pour le combler : effort d'épargne, échéance, niveau de risque, ou revoir l'objectif.
-   - Si l'objectif paraît hors d'atteinte sans prise de risque incompatible avec le profil déclaré, dis-le clairement : c'est l'information la plus utile au conseiller.
-   - Si des données manquent pour trancher (revenus, autres actifs, fiscalité de sortie), signale-le plutôt que de combler.
-   Renseigne "objectif".`;
-  }
-
-  return `Tu assistes un conseiller en investissements financiers français (certifié AMF) qui prépare une proposition de rationalisation pour un client.
-
-Les images jointes sont des captures d'écran du portefeuille actuel du client.
-
-PARAMÈTRES DU MANDAT
-- Profil de risque : ${$('risk').value}
-- Horizon : ${$('horizon').value}
-- Enveloppe : ${$('envelope').value}
-- Allocation cible en actions : ${$('target').value} %
-- Contraintes : ${$('constraints').value.trim() || 'aucune précisée'}
-${nextInvest > 0 ? `- Apport ponctuel prévu : ${nextInvest} €` : ''}
-${monthly > 0 ? `- Versement mensuel : ${monthly} €` : ''}
-${hasGoal ? `
-OBJECTIF DU CLIENT
-- Nature : ${g.type || 'non précisée'}
-- Capital visé : ${g.amount > 0 ? g.amount + ' €' : 'non précisé'}
-- Échéance : ${g.years > 0 ? g.years + ' ans' : 'non précisée'}
-- Précisions : ${g.notes || 'aucune'}` : ''}
-
-TRAVAIL DEMANDÉ
-1. Extraire chaque ligne visible. Si une valeur est illisible ou ambiguë, mets-la en null plutôt que de l'inventer, et signale-la.
-2. Établir l'allocation actuelle par classe d'actifs.
-3. Proposer des arbitrages cohérents avec les paramètres, en tenant compte des règles de l'enveloppe (ex : PEA limité aux titres éligibles UE, pas d'ETF obligataire hors éligibilité ; arbitrage non fiscalisé en assurance-vie ; plus-values taxables sur compte-titres).
-4. Signaler les points qui demandent une vérification humaine : frais réels non visibles, fiscalité latente, concentration, doublons de fonds, liquidité.${tasks}
-
-Réponds UNIQUEMENT avec un objet JSON valide, sans texte autour, sans bloc markdown :
-
-{
-  "lignes": [{"nom":"", "isin_ou_ticker":null, "quantite":null, "valeur_eur":null, "classe":"actions|obligations|monétaire|immobilier|matières premières|autre", "confiance":"haute|moyenne|basse"}],
-  "total_eur": 0,
-  "allocation_actuelle": {"actions":0, "obligations":0, "monétaire":0, "immobilier":0, "autre":0},
-  "allocation_cible": {"actions":0, "obligations":0, "monétaire":0, "immobilier":0, "autre":0},
-  "actions_proposees": [{"type":"BUY|SELL|HOLD", "libelle":"", "montant_eur":null, "justification":""}],
-  "repartition_investissement_futur": ${nextInvest > 0 ? '{"actions":0, "obligations":0, "monétaire":0, "immobilier":0, "autre":0}' : 'null'},
-  "objectif": ${hasGoal ? `{
-    "verdict": "atteignable|tendu|hors d'atteinte|indéterminé",
-    "scenarios": [{"libelle":"prudent|central|favorable", "rendement_annuel_net_pct":0, "capital_projete_eur":0}],
-    "ecart_eur": 0,
-    "leviers": ["ajustement concret et chiffré", "…"],
-    "commentaire": "2 à 4 phrases pour le conseiller, hypothèses de rendement énoncées."
-  }` : 'null'},
-  "synthese": "3 à 6 phrases rédigées à destination du conseiller : ce que dit le portefeuille actuel, la logique de l'arbitrage proposé, l'impact attendu.",
-  "points_de_vigilance": ["", ""]
-}
-
-Les pourcentages d'allocation sont des nombres entiers dont la somme fait 100.`;
-}
-
-/* ---------- appel API ---------- */
-$('run').onclick = async () => {
+$('go').onclick = async () => {
   const key = getKey();
   if (!key){ $('setup').classList.remove('hidden'); $('apiKey').focus(); return; }
-  if (!images.length){ show(`<div class="card err">Ajoute au moins une capture du portefeuille.</div>`); return; }
-
-  $('run').disabled = true;
-  show(`<div class="status"><div class="spinner"></div>Lecture des captures et construction de l'arbitrage…</div>`);
-
+  if (!images.length){ show(`<div class="card err">Ajoutez au moins une capture.</div>`); return; }
+  $('go').disabled = true;
+  show(`<div class="status"><div class="spinner"></div>Lecture des positions…</div>`);
   try{
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-      method:'POST',
-      headers:{
-        'content-type':'application/json',
-        'x-api-key':key,
-        'anthropic-version':'2023-06-01',
-        'anthropic-dangerous-direct-browser-access':'true'
-      },
-      body: JSON.stringify({
-        model: MODEL,
-        max_tokens: 4000,
-        messages:[{
-          role:'user',
-          content:[
-            ...images.map(im => ({
-              type:'image',
-              source:{ type:'base64', media_type:im.media_type, data:im.data }
-            })),
-            { type:'text', text: buildPrompt() }
-          ]
-        }]
-      })
-    });
-
-    if (!res.ok){
-      const t = await res.text();
-      throw new Error(`API ${res.status} — ${t.slice(0,200)}`);
-    }
-
-    const data = await res.json();
-    const raw = data.content.map(c => c.text || '').join('');
-    render(JSON.parse(raw.replace(/^```(json)?|```$/g,'').trim()));
+    const raw = await api([
+      ...images.map(im=>({type:'image', source:{type:'base64', media_type:im.media_type, data:im.data}})),
+      {type:'text', text:PROMPT}
+    ], 2500);
+    const d = JSON.parse(raw.replace(/^```(json)?|```$/g,'').trim());
+    lignes = (d.lignes||[]).map(l=>({
+      nom:  l.nom || 'Ligne',
+      tk:   l.ticker || '',
+      val:  typeof l.valeur_eur === 'number' ? l.valeur_eur : null,
+      type: ['action','etf','fonds','cash'].includes(l.type) ? l.type : 'action',
+      zone: ZONES.includes(l.zone) ? l.zone : 'Non déterminé',
+      sect: l.secteur || null,
+      conf: l.confiance || 'moyenne'
+    }));
+    if (!lignes.length) throw new Error("Aucune position identifiée sur ces captures.");
+    render();
   } catch(err){
-    show(`<div class="card err"><strong>Échec de l'analyse</strong><br>${err.message}</div>`);
-  } finally {
-    $('run').disabled = false;
+    show(`<div class="card err"><strong>Échec de la lecture</strong><br>${esc(err.message)}</div>`);
+  } finally { $('go').disabled = false; }
+};
+
+async function api(content, maxTokens){
+  const r = await fetch('https://api.anthropic.com/v1/messages',{
+    method:'POST',
+    headers:{'content-type':'application/json','x-api-key':getKey(),
+             'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+    body: JSON.stringify({model:MODEL, max_tokens:maxTokens, messages:[{role:'user', content}]})
+  });
+  if (!r.ok) throw new Error(`API ${r.status} — ${(await r.text()).slice(0,180)}`);
+  return (await r.json()).content.map(c=>c.text||'').join('');
+}
+
+/* ═══════ moteur — 100 % local ═══════ */
+const sum = a => a.reduce((x,y)=>x+y,0);
+const val = l => (typeof l.val === 'number' && isFinite(l.val)) ? l.val : 0;
+
+function analyse(){
+  const total   = sum(lignes.map(val));
+  const cash    = sum(lignes.filter(l=>l.type==='cash').map(val));
+  const investi = total - cash;
+  const titres  = lignes.filter(l=>l.type!=='cash' && val(l)>0).sort((a,b)=>val(b)-val(a));
+
+  /* concentration : Herfindahl sur la poche investie */
+  const w = titres.map(l=>val(l)/investi);
+  const hhi = sum(w.map(x=>x*x));
+  const equiv = hhi>0 ? 1/hhi : 0;              // nombre de lignes équivalent
+
+  /* expositions pondérées */
+  const zones = {}; ZONES.forEach(z=>zones[z]=0);
+  titres.forEach(l => zones[l.zone] += val(l));
+  const secteurs = {};
+  titres.filter(l=>l.type==='action' && l.sect).forEach(l => secteurs[l.sect]=(secteurs[l.sect]||0)+val(l));
+  const vifs = sum(titres.filter(l=>l.type==='action').map(val));
+
+  /* doublons : plusieurs ETF sur la même zone */
+  const doublons = {};
+  titres.filter(l=>l.type==='etf').forEach(l => (doublons[l.zone] = doublons[l.zone]||[]).push(l));
+
+  return {total, cash, investi, titres, hhi, equiv, zones, secteurs, vifs, doublons};
+}
+
+function optimiser(a){
+  const acts = [];
+  const cashCible    = P.cash/100 * a.total;
+  const investiCible = a.total - cashCible;          // ce qui doit etre investi au final
+  const plafEur      = P.plafond/100 * investiCible; // plafond en euros, sur la cible
+
+  /* 1 - ecreter chaque ligne au plafond */
+  let conserve = 0;
+  a.titres.forEach(l => {
+    const v = val(l), garde = Math.min(v, plafEur);
+    conserve += garde;
+    const m = Math.round((v - garde)/10)*10;
+    if (m >= P.mini) acts.push({t:'SELL', lib:l.nom, eur:m,
+      why:`${fmtPct(v/a.investi*100)} de la poche investie — ramené au plafond de ${P.plafond} %`});
+  });
+
+  /* 2 - montant restant a investir, et capacite d'accueil des lignes existantes */
+  const aDeployer = Math.round((investiCible - conserve)/10)*10;
+  const heads = a.titres.map(l => ({l, h: Math.max(0, plafEur - Math.min(val(l), plafEur))}))
+                        .filter(x => x.h > 0).sort((x,y) => y.h - x.h);
+  const capa = sum(heads.map(x => x.h));
+
+  if (aDeployer >= P.mini){
+    const surExistant = Math.min(aDeployer, capa);
+    let reste = Math.round(surExistant/10)*10;
+    heads.forEach((x,i) => {
+      if (reste < P.mini) return;
+      let m = (i === heads.length-1) ? reste : Math.min(reste, Math.round(surExistant*(x.h/capa)/10)*10);
+      if (m >= P.mini){
+        acts.push({t:'BUY', lib:x.l.nom, eur:m, why:`Marge disponible sous le plafond de ${P.plafond} %`});
+        reste -= m;
+      }
+    });
+    const residuel = Math.round((aDeployer - surExistant + reste)/10)*10;
+    if (residuel >= P.mini){
+      const miniLignes = Math.ceil(100/P.plafond);
+      acts.push({t:'NEW', lib:'Nouvelle(s) ligne(s) à ouvrir', eur:residuel,
+        why:`Un plafond de ${P.plafond} % impose au moins ${miniLignes} lignes pour être investi à 100 % ; `
+           +`le portefeuille en compte ${a.titres.length}`});
+    }
   }
-};
-
-/* ---------- rendu ---------- */
-const COLORS = {actions:'#3eef96', obligations:'#18d7b5', 'monétaire':'#8d9cb3', immobilier:'#f0b429', autre:'#7a8cff'};
-const eur = n => n == null ? '—' : new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(n);
-const esc = s => String(s ?? '').replace(/[<>&]/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;'}[c]));
-
-function allocBar(alloc){
-  const bar = Object.entries(alloc).filter(([,v]) => v > 0)
-    .map(([k,v]) => `<i style="width:${v}%;background:${COLORS[k]||'#666'}"></i>`).join('');
-  const leg = Object.entries(alloc).filter(([,v]) => v > 0)
-    .map(([k,v]) => `<span><i class="dot" style="background:${COLORS[k]||'#666'}"></i>${k} ${v}%</span>`).join('');
-  return `<div class="bar">${bar}</div><div class="legend">${leg}</div>`;
+  acts.mobilise = Math.max(0, Math.round((a.cash - cashCible)/10)*10);
+  return acts;
 }
 
-const VERDICT = {
-  "atteignable":  {c:'var(--buy)',  t:'Atteignable'},
-  "tendu":        {c:'var(--hold)', t:'Tendu'},
-  "hors d'atteinte":{c:'var(--sell)',t:"Hors d'atteinte"},
-  "indéterminé":  {c:'var(--txt-dim)', t:'Indéterminé'}
-};
+function alertes(a){
+  const v = [];
+  if (lignes.some(l => l.val == null))
+    v.push({k:'warn', t:"Des lignes n'ont pas de valeur lisible : elles sont exclues des calculs."});
+  if (lignes.some(l => l.conf === 'basse'))
+    v.push({k:'warn', t:"Des montants ont été lus avec une confiance faible — à contrôler."});
 
-function goalBlock(o){
-  if (!o) return '';
-  const v = VERDICT[o.verdict] || VERDICT['indéterminé'];
-  const goal = goalInput();
+  const top = a.titres[0];
+  if (top && val(top)/a.investi > P.plafond/100)
+    v.push({k:'warn', t:`${top.nom} représente ${fmtPct(val(top)/a.investi*100)} de la poche investie.`});
+  if (a.equiv > 0 && a.equiv < 5)
+    v.push({k:'warn', t:`Diversification équivalente à ${a.equiv.toFixed(1).replace('.',',')} lignes seulement : le portefeuille se comporte comme un panier très concentré.`});
 
-  const scen = (o.scenarios||[]).map(s => `
-    <tr>
-      <td>${esc(s.libelle)}<div style="color:var(--txt-dim);font-size:12px">${s.rendement_annuel_net_pct} %/an net</div></td>
-      <td class="num">${eur(s.capital_projete_eur)}</td>
-    </tr>`).join('');
+  Object.entries(a.doublons).forEach(([z,ls]) => {
+    if (ls.length > 1 && z !== 'Non déterminé')
+      v.push({k:'warn', t:`${ls.length} ETF exposés à la même zone (${z}) : ${ls.map(l=>l.nom).join(', ')}. Vérifier le recouvrement réel avant d'en conserver plusieurs.`});
+  });
 
-  const lev = (o.leviers||[]).map(l => `<li>${esc(l)}</li>`).join('');
+  const nd = a.zones['Non déterminé'];
+  if (nd > a.investi*0.15)
+    v.push({k:'warn', t:`${fmtPct(nd/a.investi*100)} de la poche investie n'a pas pu être rattachée à une zone : l'analyse géographique est partielle.`});
 
-  return `
-    <h2>Objectif client</h2>
-    <div class="card">
-      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:14px">
-        <div>
-          <div style="font-weight:600;font-size:15px">${esc(goal.type || 'Objectif')}</div>
-          <div style="color:var(--txt-dim);font-size:13px">
-            ${goal.amount > 0 ? eur(goal.amount) : 'montant non précisé'}${goal.years > 0 ? ` · ${goal.years} ans` : ''}
-          </div>
-        </div>
-        <span style="color:${v.c};font-weight:700;font-size:13px;white-space:nowrap">${v.t}</span>
-      </div>
+  const sectTot = sum(Object.values(a.secteurs));
+  const topSect = Object.entries(a.secteurs).sort((x,y)=>y[1]-x[1])[0];
+  if (topSect && sectTot > 0 && topSect[1]/a.investi > 0.35)
+    v.push({k:'warn', t:`Secteur ${topSect[0]} à ${fmtPct(topSect[1]/a.investi*100)} de la poche investie.`});
 
-      ${scen ? `<table><thead><tr><th>Scénario</th><th class="num">Capital projeté</th></tr></thead>
-                <tbody>${scen}</tbody></table>` : ''}
+  const miniL = Math.ceil(100/P.plafond);
+  if (a.titres.length < miniL)
+    v.push({k:'warn', t:`Avec un plafond de ${P.plafond} % par ligne, il faut au moins ${miniL} lignes pour investir la totalité. Le portefeuille en compte ${a.titres.length}.`});
 
-      ${o.ecart_eur ? `<div style="display:flex;justify-content:space-between;margin-top:13px;padding-top:11px;
-            border-top:1px solid var(--line);font-weight:600">
-            <span>Écart au scénario central</span>
-            <span style="color:${o.ecart_eur < 0 ? 'var(--sell)' : 'var(--buy)'}">${eur(o.ecart_eur)}</span>
-          </div>` : ''}
-
-      ${lev ? `<div style="margin-top:15px"><div style="font-size:11px;text-transform:uppercase;letter-spacing:.5px;
-            color:var(--txt-dim);font-weight:600;margin-bottom:6px">Leviers</div>
-            <ul style="margin:0;padding-left:18px;font-size:14px;line-height:1.6">${lev}</ul></div>` : ''}
-
-      ${o.commentaire ? `<div class="prose" style="margin-top:15px;padding-top:13px;
-            border-top:1px solid var(--line)">${esc(o.commentaire)}</div>` : ''}
-
-      <div class="flag" style="margin-top:13px">Projections calculées sur des hypothèses de rendement constant,
-        hors inflation et hors fiscalité de sortie. À recalculer sous l'outil de projection du cabinet avant remise au client.</div>
-    </div>`;
+  v.push({k:'info', t:"Les frais courants des supports ne figurent pas sur une capture : à récupérer dans les DIC."});
+  v.push({k:'info', t:"Sur compte-titres, toute cession déclenche l'imposition des plus-values (PFU 30 % sauf option barème)."});
+  return v;
 }
 
-function render(r){
-  const lignes = (r.lignes||[]).map(l => `
-    <tr>
-      <td>${esc(l.nom)}${l.confiance === 'basse' ? ' <span style="color:var(--hold)">⚠</span>' : ''}
-        <div style="color:var(--txt-dim);font-size:12px">${esc(l.isin_ou_ticker || l.classe || '')}</div></td>
-      <td class="num">${eur(l.valeur_eur)}</td>
-    </tr>`).join('');
+/* ═══════ rendu ═══════ */
+function render(){
+  const a = analyse();
+  if (a.total <= 0){ show(`<div class="card err">Aucune valeur exploitable.</div>`); return; }
+  const acts = optimiser(a);
+  const al = alertes(a);
+  const top = a.titres[0];
 
-  const actions = (r.actions_proposees||[]).map(a => `
-    <div class="act">
-      <span class="pill ${esc(a.type)}">${esc(a.type)}</span>
-      <div class="act-body">
-        <div class="act-head"><span>${esc(a.libelle)}</span><span class="act-amt">${eur(a.montant_eur)}</span></div>
-        <div class="act-why">${esc(a.justification)}</div>
-      </div>
-    </div>`).join('');
-
-  const flags = (r.points_de_vigilance||[]).map(p => `<div class="flag">${esc(p)}</div>`).join('');
-  
-  const nextInvest = r.repartition_investissement_futur ? parseFloat($('nextInvest').value) || 0 : 0;
-  const invests = nextInvest > 0 && r.repartition_investissement_futur 
-    ? Object.entries(r.repartition_investissement_futur)
-        .filter(([,v]) => v > 0)
-        .map(([k,v]) => `
-          <div class="act">
-            <span class="pill BUY">ACHETER</span>
-            <div class="act-body">
-              <div class="act-head"><span>${k}</span><span class="act-amt">${eur(v)}</span></div>
-              <div class="act-why">${((v/nextInvest)*100).toFixed(0)}% du nouvel investissement</div>
-            </div>
-          </div>`)
-        .join('')
-    : '';
+  const zoneP = {}; ZONES.forEach(z => { if (a.zones[z] > 0) zoneP[z] = a.zones[z]/a.investi*100; });
+  const sectTot = sum(Object.values(a.secteurs));
+  const sectP = Object.entries(a.secteurs).sort((x,y)=>y[1]-x[1]);
 
   show(`
-    <h2>Portefeuille lu</h2>
-    <div class="card">
-      <table><thead><tr><th>Ligne</th><th class="num">Valeur</th></tr></thead>
-      <tbody>${lignes}</tbody></table>
-      <div style="display:flex;justify-content:space-between;margin-top:13px;padding-top:11px;
-                  border-top:1px solid var(--line);font-weight:600">
-        <span>Total</span><span>${eur(r.total_eur)}</span>
-      </div>
+    <h2>Vue d'ensemble</h2>
+    <div class="stats">
+      <div class="stat"><u>Encours</u><b>${eur(a.total)}</b><i>${a.titres.length} ligne${a.titres.length>1?'s':''}</i></div>
+      <div class="stat"><u>Liquidités</u><b>${fmtPct(a.cash/a.total*100)}</b><i>${eur(a.cash)}</i></div>
+      <div class="stat"><u>Première ligne</u><b>${top?fmtPct(val(top)/a.investi*100):'—'}</b>
+        <i>${top?esc(top.nom):'—'}</i></div>
+      <div class="stat"><u>Diversification</u><b>${a.equiv.toFixed(1).replace('.',',')}</b><i>lignes équivalentes</i></div>
     </div>
 
-    <h2>Allocation actuelle</h2>
-    <div class="card">${allocBar(r.allocation_actuelle||{})}</div>
-
-    <h2>Allocation proposée (après arbitrages)</h2>
-    <div class="card">${allocBar(r.allocation_cible||{})}</div>
-
-    <h2>Arbitrages</h2>
-    <div class="card">${actions || '<span style="color:var(--txt-dim)">Aucun arbitrage proposé.</span>'}</div>
-
-    ${nextInvest > 0 ? `
-    <h2>Répartition du nouvel investissement</h2>
+    <h2>Positions <span class="badge">modifiable</span></h2>
     <div class="card">
-      <div style="font-size:14px;color:var(--txt-dim);margin-bottom:14px"><strong>${eur(nextInvest)}</strong> à investir pour converger vers l'allocation cible</div>
-      ${invests || '<span style="color:var(--txt-dim)">Pas de répartition proposée.</span>'}
+      <table><thead><tr><th>Ligne</th><th class="num">Valeur</th><th></th></tr></thead>
+        <tbody id="lnBody"></tbody></table>
+      <div class="kv" style="margin-top:4px"><span>Total</span><b>${eur(a.total)}</b></div>
+      <button id="addLine" class="ghost">+ Ajouter une ligne</button>
     </div>
-    ` : ''}
 
-    ${goalBlock(r.objectif)}
+    <h2>Exposition géographique</h2>
+    <div class="card">
+      ${bar(zoneP, ZC)}
+      <div class="flag info" style="margin-top:4px">Zone dominante déclarée par ligne, pondérée par la valorisation.
+        La composition réelle d'un ETF n'est pas lue.</div>
+    </div>
 
-    <h2>Synthèse</h2>
-    <div class="card"><div class="prose">${esc(r.synthese)}</div>${flags}</div>
+    ${sectP.length ? `<h2>Secteurs <span class="badge">titres vifs</span></h2>
+    <div class="card">
+      ${bar(Object.fromEntries(sectP.map(([s,v])=>[s, v/sectTot*100])),
+            Object.fromEntries(sectP.map(([s],i)=>[s, SC[i%SC.length]])))}
+      <div class="flag info" style="margin-top:4px">Calculé sur ${eur(a.vifs)} de titres vifs, soit
+        ${fmtPct(a.vifs/a.investi*100)} de la poche investie. Les ETF ne sont pas ventilés.</div>
+    </div>` : ''}
+
+    <h2>Optimisation</h2>
+    <div class="card">
+      ${acts.mobilise >= P.mini ? `<div class="flag info" style="margin:0 0 10px">
+          ${eur(acts.mobilise)} de liquidités mobilisées (poche cible ${P.cash} %).</div>` : ''}
+      ${acts.length ? acts.map(x => `
+        <div class="act"><span class="pill ${x.t==='SELL'?'SELL':'BUY'}">${
+            x.t==='BUY'?'Renforcer':x.t==='SELL'?'Alléger':'Ouvrir'}</span>
+          <div class="act-body"><div class="act-head"><span>${esc(x.lib)}</span>
+          <span class="act-amt">${eur(x.eur)}</span></div>
+          <div class="act-why">${esc(x.why)}</div></div></div>`).join('')
+        : `<div class="ok">Aucun arbitrage : aucune ligne ne dépasse ${P.plafond} % et les liquidités
+           restent proches de la cible.</div>`}
+    </div>
+
+    <h2>Points d'attention</h2>
+    <div class="card">
+      ${al.map(x=>`<div class="flag${x.k==='info'?' info':''}">${esc(x.t)}</div>`).join('')}
+    </div>
+
+    <div class="card" style="margin-top:10px">
+      <details>
+        <summary>Réglages</summary>
+        <div class="row3" style="margin-top:12px">
+          <div><label for="pPlaf">Plafond ligne %</label>
+            <input id="pPlaf" type="number" min="1" max="100" step="1" value="${P.plafond}" inputmode="numeric"></div>
+          <div><label for="pCash">Cash cible %</label>
+            <input id="pCash" type="number" min="0" max="100" step="1" value="${P.cash}" inputmode="numeric"></div>
+          <div><label for="pMini">Mini €</label>
+            <input id="pMini" type="number" min="0" step="100" value="${P.mini}" inputmode="numeric"></div>
+        </div>
+      </details>
+    </div>
+
+    <div class="card">
+      <button id="synth" class="ghost">Rédiger la note de synthèse</button>
+      <div id="synthOut"></div>
+    </div>
   `);
+
+  renderLines(a.investi);
+  ['pPlaf','pCash','pMini'].forEach((id,i) => $(id).oninput = () => {
+    P[['plafond','cash','mini'][i]] = parseFloat($(id).value) || 0;
+    const open = true; render(); $('out').querySelector('details').open = open;
+  });
+  $('addLine').onclick = () => {
+    lignes.push({nom:'', tk:'', val:null, type:'action', zone:'Non déterminé', sect:null, conf:'haute'});
+    render();
+  };
+  $('synth').onclick = () => synthese(a, acts, al);
+}
+
+function renderLines(investi){
+  $('lnBody').innerHTML = lignes.map((l,i) => {
+    const p = investi>0 && l.type!=='cash' ? val(l)/investi*100 : 0;
+    return `<tr>
+      <td>
+        <input class="ln-name" data-f="nom" data-i="${i}" value="${esc(l.nom)}" placeholder="Nom">
+        <div class="ln-sub">${l.type==='cash'?'liquidités':`${l.type} · ${esc(l.zone)}${l.sect?' · '+esc(l.sect):''}`}
+          ${l.conf==='basse'?'<span style="color:var(--hold)"> ⚠</span>':''}</div>
+        ${p>0?`<div class="wbar" style="width:${Math.min(100,p)}%"></div>`:''}
+      </td>
+      <td class="num"><input class="ln-val" data-f="val" data-i="${i}" type="number" inputmode="decimal"
+            value="${l.val ?? ''}" placeholder="?"></td>
+      <td><span class="del" data-del="${i}">×</span></td>
+    </tr>`;
+  }).join('');
+
+  $('lnBody').querySelectorAll('[data-f]').forEach(el => {
+    el.onchange = () => {
+      const l = lignes[+el.dataset.i], f = el.dataset.f;
+      l[f] = f==='val' ? (el.value===''?null:parseFloat(el.value)) : el.value;
+      if (f==='val') l.conf='haute';
+      render();
+    };
+  });
+  $('lnBody').querySelectorAll('[data-del]').forEach(el =>
+    el.onclick = () => { lignes.splice(+el.dataset.del,1); render(); });
+}
+
+/* ═══════ synthèse (2ᵉ appel, facultatif) ═══════ */
+async function synthese(a, acts, al){
+  const b = $('synth'); b.disabled = true;
+  $('synthOut').innerHTML = `<div class="status"><div class="spinner"></div>Rédaction…</div>`;
+  const zonesTxt = ZONES.filter(z=>a.zones[z]>0)
+    .map(z=>`${z} ${(a.zones[z]/a.investi*100).toFixed(1)}%`).join(', ');
+  const brief = `Rédige une note de synthèse pour un conseiller en investissements financiers français,
+sur un compte-titres. Tous les chiffres ci-dessous sont calculés : ne les recalcule pas, n'en invente aucun.
+
+Encours ${Math.round(a.total)} € dont ${Math.round(a.cash)} € de liquidités.
+${a.titres.length} lignes. Première ligne : ${a.titres[0]?.nom} à ${(val(a.titres[0])/a.investi*100).toFixed(1)} %.
+Diversification : ${a.equiv.toFixed(1)} lignes équivalentes (indice de Herfindahl ${a.hhi.toFixed(3)}).
+Exposition géographique : ${zonesTxt}.
+Arbitrages proposés : ${acts.length ? acts.map(x=>`${x.t==='BUY'?'renforcer':x.t==='SELL'?'alléger':'déployer'} ${x.lib||'liquidités'} de ${Math.round(x.eur)} €`).join(' ; ') : 'aucun'}.
+Points relevés : ${al.map(x=>x.t).join(' | ')}
+
+Écris 4 à 5 phrases en français, ton professionnel et sobre : ce que montre le portefeuille, la logique des
+arbitrages, ce qui reste à vérifier. Pas de titre, pas de liste, pas de formule commerciale. Texte brut.`;
+  try{
+    const t = await api([{type:'text', text:brief}], 900);
+    $('synthOut').innerHTML = `<div class="prose" style="margin-top:14px;padding-top:13px;
+      border-top:1px solid var(--line)">${esc(t.trim())}</div>`;
+  } catch(e){
+    $('synthOut').innerHTML = `<div class="err" style="margin-top:12px">${esc(e.message)}</div>`;
+  } finally { b.disabled = false; }
+}
+
+/* ═══════ utilitaires ═══════ */
+const eur = n => (n==null||!isFinite(n)) ? '—'
+  : new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(n);
+const fmtPct = n => (isFinite(n)?n:0).toFixed(1).replace('.',',')+' %';
+const esc = s => String(s ?? '').replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
+
+function bar(obj, colors){
+  const e = Object.entries(obj).filter(([,v])=>v>0.05).sort((x,y)=>y[1]-x[1]);
+  return `<div class="bar">${e.map(([k,v])=>`<i style="width:${v}%;background:${colors[k]}"></i>`).join('')}</div>
+    <div class="legend">${e.map(([k,v])=>
+      `<span><i class="dot" style="background:${colors[k]}"></i>${esc(k)} ${fmtPct(v)}</span>`).join('')}</div>`;
 }
 
 function show(html){
